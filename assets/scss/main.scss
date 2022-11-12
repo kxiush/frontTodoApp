@@ -1,0 +1,45 @@
+@import "../scss/fonts.scss";
+@import "../scss/variables.scss";
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: $mainColor;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+
+input[type=text],
+input[type=password]{
+    width: 100%;
+    padding: 4%;
+    border-radius:10px;
+    border : 1px solid $mainColor;
+}
+
+button {
+    width: auto;
+    cursor: pointer;
+    margin : 1.2%;
+    background-color: white;
+    color: $mainColor;
+    border : 2px solid $border;
+    border-radius: 10px;
+    padding: 10px;
+    transition-duration: 0.4s;
+
+    &:hover {
+      box-shadow: 0 12px 16px 0 rgba(177, 175, 175, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    &:disabled{
+        opacity: 0.5;
+ }
+}

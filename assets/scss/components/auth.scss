@@ -1,0 +1,21 @@
+@import "../variables.scss";
+
+
+.welcomePageWrapper {
+    @include flex-between;
+
+    margin: 0 auto;
+    width: 80vw;
+    padding-top: 20vh;
+
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+.buttonWrapper {
+    @include flex-center;
+    flex-direction: column;
+    width: 35%;
+}
+

@@ -1,0 +1,7 @@
+@import "../variables.scss";
+
+.dashboardWrapper {
+    @include flex-between;
+    flex-wrap: wrap;
+    margin: 1%;
+}

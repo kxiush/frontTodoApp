@@ -1,0 +1,25 @@
+@import "../../scss/variables.scss";
+
+ul {
+    border : 2px solid $border;
+    padding: 3%;
+}
+
+app-add-new-task {
+  @include flex-center;
+
+}
+p {
+    margin: 1%;
+}
+.task {
+    background-color: rgba(210, 179, 214, 0.3);
+    border :1px solid $border;
+    padding: 2%;
+    margin: 2%;
+    position: relative;
+}
+
+.counter {
+    font-size: small;
+}

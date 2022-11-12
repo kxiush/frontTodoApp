@@ -1,0 +1,18 @@
+@import "../variables.scss";
+
+.headerWrapper {
+    width: 100%;
+    min-height: 6vh;
+    background-color: $headerBackground;
+    padding: 1%;
+    @include flex-between;
+}
+.headerButtonWrapper {
+    @include flex-between;
+}
+.logout {
+    width: 10vw;
+}
+h2 {
+    font-size: 1.2em;
+}

@@ -1,0 +1,15 @@
+@import "../variables.scss";
+
+.columnWrapper {
+    @include flex-around;
+  
+        margin: 2%;
+        // padding: 2%;
+
+    div {
+        width: 28vw;    
+        padding: 2%;
+
+    }
+}
+

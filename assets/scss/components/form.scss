@@ -1,0 +1,29 @@
+@import "../variables.scss";
+
+input {
+    &.ng-invalid.ng-touched{
+        border: 1px solid $red;
+    }
+    &.ng-valid.ng-touched{
+        border : 1px solid $green;
+    }
+}
+
+small {
+    color: $red;
+    font-size: small;
+}
+
+.formWrapper,
+.formLoginWrapper {
+    padding: 20px;
+}
+.form-group {
+    padding: 4%;
+    // overflow: hidden;
+}
+:host {
+    border: 1px solid $border;
+    border-radius: 10px;
+    display: block;
+}

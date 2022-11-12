@@ -1,0 +1,30 @@
+@import "../variables.scss";
+
+.kebab {
+    position: absolute;
+    top: 2px;
+    right: 6px;
+    cursor: pointer;
+}
+
+span {
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: $border;
+    border-radius: 50%;
+}
+
+.kebabButtonWrapper {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    padding: 1%;
+
+    button {
+        border : none;
+        background-color: transparent;
+        padding: 0;
+    }
+}
+

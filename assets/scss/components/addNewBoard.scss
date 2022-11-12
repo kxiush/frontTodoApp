@@ -1,6 +1,6 @@
+@import"../../scss/variables.scss";
 button {
     border-radius : 20px;
-    width :12vw;
     height: auto;
 
 }
@@ -9,3 +9,9 @@ button {
     font-size: 3em;
     display: block;
 }
+
+@media (min-width: $desktop) {
+    button {
+        width: 11vw;
+    }
+  }

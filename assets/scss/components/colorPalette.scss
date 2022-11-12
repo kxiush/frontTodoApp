@@ -1,6 +1,9 @@
+@import "../../scss/variables.scss";
+
 .colorPaletteWrapper {
     ul {
-      display: flex;
+      @include flex-center;
+      // align-items: center;
       border: 2px solid white;
     }
     li {
@@ -10,4 +13,4 @@
       cursor: pointer;
     }
   }
-  
+ 

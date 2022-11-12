@@ -12,6 +12,9 @@ app-add-new-task {
 p {
     margin: 1%;
 }
+.columnList {
+    width: 250px;
+}
 .task {
     background-color: rgba(210, 179, 214, 0.3);
     border :1px solid $border;

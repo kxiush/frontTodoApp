@@ -8,9 +8,23 @@
     align-items: center;
 
 }
+input{
+  border-radius:2px;
+  border-color: $border;
+  width: auto;
+  padding:0;
+}
 .buttonWrapper {
     @include flex-around;
      margin-right: 1%;
+     button{
+      background-color: inherit;
+      color:inherit;
+      border: 1px solid $border;
+      border-radius: 2px;
+      padding:5px;
+      
+     }
 }
 // .customSelect {
 //   border: 2px solid $border;
@@ -32,18 +46,18 @@
   }
   .filterWrapper {
     margin: 2%;
-    @include flex-between;
+    @include flex-around;
     flex-direction: row;
   }
 }
-@media (min-width: 453px) and (max-width: 768px) {
-  .buttonWrapper {
-    width : 44%;
-  }
-}
+// @media (min-width: 453px) and (max-width: 768px) {
+//   .buttonWrapper {
+//     width : 44%;
+//   }
+// }
 
-@media (min-width: $desktop) {
-    .buttonWrapper {
-      width : 21%;
-    }
-  }
+// @media (min-width: $desktop) {
+//     .buttonWrapper {
+//       width : 21%;
+//     }
+//   }
